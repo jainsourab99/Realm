@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5424EDC2232725400F3450C /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5424EDB2232725400F3450C /* item.swift */; };
 		B5E5101F22314CAB008A28DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5101E22314CAB008A28DF /* AppDelegate.swift */; };
 		B5E5102122314CAB008A28DF /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5102022314CAB008A28DF /* TodoListViewController.swift */; };
 		B5E5102422314CAB008A28DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E5102222314CAB008A28DF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5424EDB2232725400F3450C /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 		B5E5101B22314CAB008A28DF /* Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E5101E22314CAB008A28DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E5102022314CAB008A28DF /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5424EDA2232723100F3450C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5102022314CAB008A28DF /* TodoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5424EDD2232725900F3450C /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5424EDB2232725400F3450C /* item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		B5424EDE2232726F00F3450C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5102722314CAC008A28DF /* LaunchScreen.storyboard */,
+				B5E5102222314CAB008A28DF /* Main.storyboard */,
+				B5E5102522314CAC008A28DF /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5424EDF2232728900F3450C /* Supperting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5102A22314CAC008A28DF /* Info.plist */,
+			);
+			path = "Supperting Files";
+			sourceTree = "<group>";
+		};
 		B5E5101222314CAB008A28DF = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				B5E5101E22314CAB008A28DF /* AppDelegate.swift */,
-				B5E5102022314CAB008A28DF /* TodoListViewController.swift */,
-				B5E5102222314CAB008A28DF /* Main.storyboard */,
-				B5E5102522314CAC008A28DF /* Assets.xcassets */,
-				B5E5102722314CAC008A28DF /* LaunchScreen.storyboard */,
-				B5E5102A22314CAC008A28DF /* Info.plist */,
+				B5424EDD2232725900F3450C /* Data Model */,
+				B5424EDA2232723100F3450C /* Controller */,
+				B5424EDE2232726F00F3450C /* View */,
+				B5424EDF2232728900F3450C /* Supperting Files */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E5102122314CAB008A28DF /* TodoListViewController.swift in Sources */,
+				B5424EDC2232725400F3450C /* item.swift in Sources */,
 				B5E5101F22314CAB008A28DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MGRP94WW69;
-				INFOPLIST_FILE = Realm/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Realm/Supperting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MGRP94WW69;
-				INFOPLIST_FILE = Realm/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Realm/Supperting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
