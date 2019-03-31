@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50F99AC224ECC4200C33BA9 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F99AB224ECC4200C33BA9 /* CategoryTableViewController.swift */; };
 		B5E0E4CD223A9342002F4491 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5E0E4CB223A9342002F4491 /* DataModel.xcdatamodeld */; };
 		B5E5101F22314CAB008A28DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5101E22314CAB008A28DF /* AppDelegate.swift */; };
 		B5E5102122314CAB008A28DF /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5102022314CAB008A28DF /* TodoListViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50F99AB224ECC4200C33BA9 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		B5E0E4CC223A9342002F4491 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B5E5101B22314CAB008A28DF /* Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E5101E22314CAB008A28DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		B5424EDA2232723100F3450C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B50F99AB224ECC4200C33BA9 /* CategoryTableViewController.swift */,
 				B5E5102022314CAB008A28DF /* TodoListViewController.swift */,
 			);
 			path = Controller;
@@ -173,6 +176,7 @@
 				B5E5102122314CAB008A28DF /* TodoListViewController.swift in Sources */,
 				B5E0E4CD223A9342002F4491 /* DataModel.xcdatamodeld in Sources */,
 				B5E5101F22314CAB008A28DF /* AppDelegate.swift in Sources */,
+				B50F99AC224ECC4200C33BA9 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
